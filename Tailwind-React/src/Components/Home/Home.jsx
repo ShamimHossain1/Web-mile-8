@@ -11,7 +11,6 @@ const Home = () => {
                 <h1 className="text-3xl text-center mt-10">Welcome to Tailwind React</h1>
             </div>
             <Outlet></Outlet>
-
             <Footer></Footer>
 
         </div>
