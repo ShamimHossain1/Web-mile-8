@@ -1,7 +1,8 @@
 import { useState } from "react";
-import Link from "./Link/Link";
+import Links from "./Links/Links";
 import { RiMenu2Line } from "react-icons/ri";
 import { AiTwotoneCloseSquare } from "react-icons/ai";
+
 const NavBar = () => {
 
     const [Open, setOpen] = useState(false);
@@ -27,7 +28,8 @@ const NavBar = () => {
             <ul className={`md:flex md:justify-center md:space-x-5 text-lg font-bold absolute bg-gray-700 md:bg-transparent rounded-md md:static ${Open ? "top-12 left-0 w-full p-4" : "hidden"}`}>
 
                 {
-                    routes.map(route => <Link key={route.id} route={route}></Link>)
+                    routes.map(route => <Links key={route.id} route={route}></Links>)
+                    
                 }
             </ul>
 
