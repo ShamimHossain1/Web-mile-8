@@ -1,10 +1,11 @@
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
-
+import './Links.css'
 const Links = ({route}) => {
     return (
         <div>
-           <Link to={route.path}>{route.name}</Link>
+           {/* <Link to={route.path}>{route.name}</Link> */}
+           <NavLink to={route.path}>{route.name}</NavLink>
         </div>
     );
 };
