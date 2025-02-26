@@ -7,10 +7,10 @@ import Form from '../Form/Form';
 const Home = () => {
 
     const navigation = useNavigation();
-    console.log(navigation);
+    // console.log(navigation);
 
     const location = useLocation();
-    console.log(location);
+    // console.log(location);
 
     return (
         <div>
