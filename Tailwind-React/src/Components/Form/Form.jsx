@@ -21,9 +21,9 @@ const Form = () => {
             <form onSubmit={handleSubmit} action="">
                 <input type="text" name="name" />
                 <br />
-                <input onChange={handleEmailChange} type="email" name="email" />
+                <input onChange={handleEmailChange} type="email" name="email" required />
                 <br />
-                <input type="submit" value="submit" />
+                <input type="submit" value="submit"/>
             </form>
         </div>
     );
