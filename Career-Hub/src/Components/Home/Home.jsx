@@ -1,9 +1,10 @@
 import React from 'react';
+import FeaturedJobs from './FeaturedJobs/FeaturedJobs';
 
 const Home = () => {
     return (
-        <div>
-            
+        <div className="px-80">
+            <FeaturedJobs></FeaturedJobs>
         </div>
     );
 };
